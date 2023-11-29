@@ -4,19 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
-    <header id="top">
+    <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>Header element contains the navigations of the webpage.</li>
+          <li>Head element contains the meta element; the information about the webpage.</li>
+          <li>Title element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).
+          </li>
+          <li>Body element represents the visible content shown to the user.</li>
+          <li>Footer element are typically copyrights at the bottom of the page</li>
+          <li>Paragraph element represents a paragraph or block of text</li>
+          <li>Style element defines the CSS styles associated with a website.
+          </li>
+          <li> "br" element creates a line of empty space, or a line break, between two blocks of content</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+         <li>CSS defines the colors, aesthetics, visual layout, and organization. We use CSS to define style rules for specific elements of an HTML page and format them using a wide range of style options</li>
+        <li>Contains property: value; = color: blue;</li>
+        <li>Element selectors selects ALL elements that match the html tag (ie. h1, tag)</li>
+        <li>ID selectors should ONLY be used ONCE on the page. (#)</li>
+        <li>Class selectors selects all the elements that include the class name (.)</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git stash: git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on</li>
+          <li>git stash apply: unshelves changes</li>
+          <li>git add . : adds changes </li>
+          <li>git commit -m "": adds a commit message</li>
+          <li>git push origin branch: pushes branch to origin </li>
+          <li>git pull origin branch: pulls changes from specific branch</li>
+          <li>git log: shows logs</li>
+          <li>to add branch process: git pull, add, & push</li>
+   
+
+        </ul>
+   
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>A variable is a named container (i.e. a cup) that allows us to store data in our code</li> 
+          <li>Variables are declared using special keywords (var, let, const.)</li>
+          <li>The data is the content inside the container (i.e.orange juice, water, soda)</li>
+          <li>Commom JS datatypes: string, Numeric, Boolean, Undefined, Object.</li>
+          <li>Data type String uses "", numeric data does not use quotation marks, boolean value only says true or false.</li>
+          <li>Control flow is the order in which the computer executes code in a script</li>
+          <li>conditional statements are used to make decisions based on conditions declared on the code.</li>
+          <li>Boolean: operators are used; ie. === equal value & equal type, != not equal</li>
+          <li>A function's name is followed by parentheses ()</li>
+          <li>console.log prints javascript in browser console</li>
+          <li>The "typeof" method prints the data types of a variable's value</li>
+        
+        </ul>
+   
+   
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
